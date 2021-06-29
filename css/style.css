@@ -351,3 +351,43 @@ ul.key-word-list li:nth-child(6) a span {
 ul.key-word-list li:last-child a span {
     padding-left: 26px;
 }
+.key-word-pages {
+    margin-top: 19px;
+    padding-left: 206px;
+    line-height: 16px;
+}
+.key-word-pages a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #454545;
+    padding: 1.5px 4px;
+}
+.key-word-pages a.active, .key-word-pages a:hover {
+    font-weight: bold;
+    color: #000000;
+}
+.key-word-pages a.more-before, .key-word-pages a.before, .key-word-pages a.next, .key-word-pages a.more-next {
+    background: url("../img/main/more-left-btn.png") no-repeat center;
+    padding: 2px 12.5px;
+}
+.key-word-pages a.before {
+    background: url("../img/main/left-btn.png") no-repeat center;
+}
+.key-word-pages a.next {
+    background: url("../img/main/right-btn.png") no-repeat center;
+}
+.key-word-pages a.more-next {
+    background: url("../img/main/more-right-btn.png") no-repeat center;
+}
+.key-word-pages a:nth-child(3) {
+    padding: 1.5px 5px 1.5px 10.5px;
+}
+.key-word-pages a:nth-child(4) {
+    padding: 1.5px 5px;
+}
+.key-word-pages a:nth-child(5) {
+    padding: 1.5px 4px 1.5px 4.5px;
+}
+.key-word-pages a:nth-child(12) {
+    padding: 1.5px 21.5px 1.5px 4px;
+}

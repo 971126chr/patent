@@ -240,7 +240,7 @@ p.box-p {
     padding-bottom: 20px;
     border-bottom: 1px solid #e9e9e9;
 }
-h4.reference-h4, h4.key-word-h4 {
+h4.reference-h4, h4.key-word-h4, h4.about-patent-h4 {
     font-size: 0;
     background: url("../img/main/Reference.png") no-repeat left;
     line-height: 15px;
@@ -282,13 +282,10 @@ h4.key-word-h4 {
     background: url("../img/main/key-word.png") no-repeat left;
 }
 ul.key-word-tab-list {
-    margin-top: 20px;
+    margin-top: 21px;
 }
 ul.key-word-tab-list li {
     float: left;
-    border: 1px solid #b8bfca;
-    border-bottom: none;
-    border-radius: 2px 2px 0 0;
 }
 ul.key-word-tab-list li:not(:last-child) {
     border-right: none;
@@ -299,9 +296,16 @@ ul.key-word-tab-list li a {
     background: url("../img/main/key-word-tab.png") repeat-x;
     padding: 2px 21px;
     line-height: 20px;
+    border: 1px solid #b8bfca;
+    border-bottom: none;
+    border-radius: 2px 2px 0 0;
+}
+ul.key-word-tab-list li:first-child a {
+    border-right: none;
 }
 ul.key-word-tab-list li:nth-child(3) a {
     padding: 2px 14px 2px 16px;
+    border-left: none;
 }
 ul.key-word-tab-list li:nth-child(5) a {
     padding: 2px 7px 2px 11px;
@@ -313,6 +317,8 @@ ul.key-word-tab-list li.active a, ul.key-word-tab-list li:hover a {
     background: url("../img/main/key-word-tab-hover.png") repeat-x;
     font-weight: bold;
     color: #004e9f;
+    border: 1px solid #8cacc8;
+    border-bottom: none;
 }
 .key-word-list-box {
     border-top: 1px solid #cdd2da;
@@ -390,4 +396,19 @@ ul.key-word-list li:last-child a span {
 }
 .key-word-pages a:nth-child(12) {
     padding: 1.5px 21.5px 1.5px 4px;
+}
+.about-patent {
+    margin-top: 20px;
+}
+h4.about-patent-h4 {
+    line-height: 16px;
+    background: url("../img/main/about-patent.png") no-repeat left;
+}
+.about-patent ul.key-word-tab-list li a {
+    padding: 2px 9px 2px 11px;
+    letter-spacing: 0.7px;
+}
+.about-patent ul.key-word-tab-list li:nth-child(2) a {
+    border-left: none;
+    letter-spacing: 0.1px;
 }

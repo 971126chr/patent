@@ -3,7 +3,18 @@
 }
 .wrap {
     width: 756px;
-    margin: 20px auto;
+    margin: 20px auto 40px;
+}
+.references-clip {
+    position: relative;
+}
+.references-clip a {
+    font-size: 0;
+    background: url("../img/main/reference-clip.png") no-repeat;
+    padding: 44.5px 12px;
+    position: absolute;
+    top: 86px;
+    right: -38px;
 }
 h2.main-h2 {
     font-size: 0;
@@ -215,7 +226,8 @@ dl.design-list dd {
 .box-content dl.design-list:nth-child(5) dd ol li:last-child {
     letter-spacing: -0.02px;
 }
-.box-content dl.design-list:nth-child(5) dd ol li a.more-content {
+.box-content dl.design-list:nth-child(5) dd ol li a.more-content,
+.about-patent a.more-content {
     text-decoration: underline;
     color: #00a5f2;
     position: absolute;
@@ -320,7 +332,7 @@ ul.key-word-tab-list li.active a, ul.key-word-tab-list li:hover a {
     border: 1px solid #8cacc8;
     border-bottom: none;
 }
-.key-word-list-box {
+.key-word-list-box, .about-patent-box {
     border-top: 1px solid #cdd2da;
     border-bottom: 1px solid #cdd2da;
     background: #fafafa;
@@ -399,16 +411,32 @@ ul.key-word-list li:last-child a span {
 }
 .about-patent {
     margin-top: 20px;
+    position: relative;
 }
 h4.about-patent-h4 {
     line-height: 16px;
     background: url("../img/main/about-patent.png") no-repeat left;
 }
 .about-patent ul.key-word-tab-list li a {
-    padding: 2px 9px 2px 11px;
+    padding: 2px 10px 2px 11px;
     letter-spacing: 0.7px;
 }
 .about-patent ul.key-word-tab-list li:nth-child(2) a {
     border-left: none;
     letter-spacing: 0.1px;
+}
+.about-patent ul.key-word-tab-list li:last-child a {
+    letter-spacing: -0.3px;
+    padding: 2px 9px 2px 11px;
+}
+.about-patent-box {
+    padding: 11px 0 13px 10px;
+}
+.about-patent-box ul.key-word-list li:first-child a {
+    text-decoration: underline;
+}
+.about-patent a.more-content {
+    top: 192px;
+    right: 31px;
+    font-size: 12px;
 }
